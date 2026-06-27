@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Flappy Bird</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="game-shell">
+    <button class="mute-button" id="mute-button" aria-label="Mute sound">🔇</button>
+    <h1>Flappy Bird</h1>
+    <canvas id="game" width="420" height="640"></canvas>
+    <div class="controls">Press <strong>Space</strong> or click to flap</div>
+  </div>
+
+  <div class="overlay visible" id="overlay">
+    <div class="overlay-panel">
+      <h2 id="overlay-title">Ready to fly?</h2>
+      <p id="overlay-text">Tap start and dodge the pipes</p>
+      <button id="overlay-button">Start Game</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
